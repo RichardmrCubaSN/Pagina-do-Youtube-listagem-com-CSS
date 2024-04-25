@@ -1,0 +1,128 @@
+/* Menu */
+.menu {
+    background: #c5c5c5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+.menu-left { 
+    display: flex;
+    justify-content: center;    
+    width: 148px;
+    height: 24px;
+}
+
+.menu-left-img {
+    margin-left: 32px;
+}
+
+.menu-center {
+    display: inline-flex;
+}
+
+.menu-center input {
+    width: 404px;
+    height: 40px;
+    border-radius: .75rem 0 0 .75rem;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-center button {
+    width: 57px;
+    height: 40px;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu-right-img { 
+    max-width: 34px;
+    max-height: 34px;
+    border-radius: 50%;
+}
+
+/* content */
+.content{
+    /*background: #c5c5c5;*/
+    height: max-content;
+    display: flex;
+}
+
+/* content sidebar*/
+
+.content .sidebar-video {
+    background: #dddddd;
+    width: 15.14%;
+    padding: 24px;
+}
+
+.content .sidebar-video .home,
+.content .sidebar-video .explore,
+.content .sidebar-video .subscriptions,
+.content .sidebar-video .youtube-music,
+.content .sidebar-video .videos-like,
+.content .sidebar-video .watch-later,
+.content .sidebar-video .downloads,
+.content .sidebar-video .movies,
+.content .sidebar-video .learn,
+.content .sidebar-video .sports {
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.content .sidebar-video .home h2,
+.content .sidebar-video .explore h3,
+.content .sidebar-video .subscriptions h3,
+.content .sidebar-video .youtube-music h3,
+.content .sidebar-video .videos-like h3,
+.content .sidebar-video .watch-later h3,
+.content .sidebar-video .downloads h3,
+.content .sidebar-video .movies h3,
+.content .sidebar-video .learn h3,
+.content .sidebar-video .sports h3 {
+    margin-left: 16px;
+}
+
+/* content playlist-video*/
+
+.content .playlist-video {
+    background: #EFEFEF;
+    width: 84.86%;
+    
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 28px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-auto-rows: 262px;
+    justify-content: center;
+    gap: 14px
+}
+
+.content .playlist-video .video{
+    padding: 16px;    
+}
+
+.content .playlist-video .video .info{
+    display: flex;
+    padding-top: 16px;
+}
+
+.content .playlist-video .video .info .descriptions{
+    margin-left: 10px;
+}
+
+.content .playlist-video .video .info .descriptions .dates{
+    padding-top: 16px;
+}
